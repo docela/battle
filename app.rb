@@ -1,5 +1,5 @@
 require "sinatra"
-set :session_secret, "super secret", "named cat"
+set :session_secret, "super secret"
 
 get "/" do
   "hello!"
